@@ -81,11 +81,7 @@ A Java web application implementing user registration and login functionality us
 
 `mermaid
 flowchart LR
-    A[👤 User fills form] --> B[📤 Servlet receives data]
-    B --> C[✅ Validates input]
-    C --> D[🔌 JDBC connects to MySQL]
-    D --> E[💾 Store user details]
-    E --> F[📢 Display success/failure]
+   
     <img width="1500" height="80" alt="diagram (1)" src="https://github.com/user-attachments/assets/78c33630-83cc-4b22-9457-30766d1b4d10" />
 
 `
@@ -94,11 +90,8 @@ flowchart LR
 
 `mermaid
 flowchart LR
-    A[👤 Enter credentials] --> B[📤 Servlet processes]
-    B --> C[🔍 Verify against DB]
-    C --> D{Valid?}
-    D -->|Yes| E[✅ Login Success]
-    D -->|No| F[❌ Login Failed]
+  <img width="1500" height="205" alt="diagram" src="https://github.com/user-attachments/assets/df2d4134-5c8d-480c-99fa-627d0532e51f" />
+
 `
 
 🗄️ Database Configuration
@@ -108,9 +101,7 @@ flowchart LR
 | Database | MySQL |
 | Database Name | studentdb |
 
-`sql
-CREATE DATABASE studentdb;
-``
+
 
 📚 Learning Outcomes
 
