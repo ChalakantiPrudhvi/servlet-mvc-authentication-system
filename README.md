@@ -122,14 +122,7 @@ CREATE DATABASE studentdb;
 | 🔗 MySQL Integration | Connecting Java apps to databases |
 | 🚀 Tomcat Deployment | Deploying Java web applications |
 
-🚀 Future Enhancements
-• [ ] 🔒 Session Management
-• [ ] 🚪 Logout Functionality  
-• [ ] 🔐 Password Encryption/Hashing
-• [ ] ✅ Enhanced Input Validation
-• [ ] ⚠️ Better Exception Handling
-• [ ] 👤 User Profile Management
-• [ ] 🔑 Forgot Password Feature
+
 
 <div align="center">
 
