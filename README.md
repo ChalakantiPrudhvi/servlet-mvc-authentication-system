@@ -66,7 +66,7 @@ A Java web application implementing user registration and login functionality us
 
 🏗️ Project Structure
 
-``
+```
 📦 Servlet-MVC-Project
 ├── 📂 Model
 │   └── Handles database operations & JDBC connectivity
@@ -74,26 +74,30 @@ A Java web application implementing user registration and login functionality us
 │   └── JSP & HTML pages for user interaction
 └── 📂 Controller
     └── Servlets processing requests & coordinating Model-View
-`
+```
 
 🔄 Application Workflow
 📝 Registration Flow
 
-`mermaid
+```mermaid
 flowchart LR
-   
-    <img width="1500" height="80" alt="diagram (1)" src="https://github.com/user-attachments/assets/de9c4f23-787e-476b-9dc0-0bdb908a135b" />
-
-
-`
+    A[👤 User fills form] --> B[📤 Servlet receives data]
+    B --> C[✅ Validates input]
+    C --> D[🔌 JDBC connects to MySQL]
+    D --> E[💾 Store user details]
+    E --> F[📢 Display success/failure]
+```
 
 🔑 Login Flow
 
-`mermaid
+```mermaid
 flowchart LR
-  <img width="1500" height="205" alt="diagram" src="https://github.com/user-attachments/assets/df2d4134-5c8d-480c-99fa-627d0532e51f" />
-
-`
+    A[👤 Enter credentials] --> B[📤 Servlet processes]
+    B --> C[🔍 Verify against DB]
+    C --> D{Valid?}
+    D -->|Yes| E[✅ Login Success]
+    D -->|No| F[❌ Login Failed]
+```
 
 🗄️ Database Configuration
 
@@ -102,7 +106,9 @@ flowchart LR
 | Database | MySQL |
 | Database Name | studentdb |
 
-
+```sql
+CREATE DATABASE studentdb;
+```
 
 📚 Learning Outcomes
 
