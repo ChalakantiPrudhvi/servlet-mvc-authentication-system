@@ -82,7 +82,8 @@ A Java web application implementing user registration and login functionality us
 `mermaid
 flowchart LR
    
-    <img width="1500" height="80" alt="diagram (1)" src="https://github.com/user-attachments/assets/78c33630-83cc-4b22-9457-30766d1b4d10" />
+    <img width="1500" height="80" alt="diagram (1)" src="https://github.com/user-attachments/assets/de9c4f23-787e-476b-9dc0-0bdb908a135b" />
+
 
 `
 
