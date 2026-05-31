@@ -86,6 +86,8 @@ flowchart LR
     C --> D[🔌 JDBC connects to MySQL]
     D --> E[💾 Store user details]
     E --> F[📢 Display success/failure]
+    <img width="1500" height="80" alt="diagram (1)" src="https://github.com/user-attachments/assets/78c33630-83cc-4b22-9457-30766d1b4d10" />
+
 `
 
 🔑 Login Flow
